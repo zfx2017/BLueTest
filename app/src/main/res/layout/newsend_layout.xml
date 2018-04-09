@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="382dp"
+        android:layout_height="167dp"
+        android:layout_marginTop="76dp"
+        android:background="#FFA500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/buttonSend1"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:text="修改"
+            android:background="#00FFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="131dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="8dp"
+            android:text="通道一"
+            android:textSize="35sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/writeText1"
+            android:layout_width="376dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="无数据"
+            android:textSize="35sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="381dp"
+        android:layout_height="172dp"
+        android:background="#00FF00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="130dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="8dp"
+            android:text="通道二"
+            android:textSize="35sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/buttonSend2"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:text="修改"
+            android:background="#00FFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/writeText2"
+            android:layout_width="374dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="无数据"
+            android:textSize="35sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.428"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textBack"
+        android:layout_width="387dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="176dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="22dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
+        app:layout_constraintVertical_bias="0.137"
+        android:layout_marginLeft="1dp" />
+
+    <TextView
+        android:id="@+id/mac"
+        android:layout_width="380dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="16dp" />
+
+</android.support.constraint.ConstraintLayout>
